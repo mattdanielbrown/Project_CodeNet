@@ -53,8 +53,7 @@
               <shadedArtifactAttached>false</shadedArtifactAttached>
                <shadeTestJar>true</shadeTestJar>
 	      <transformers>
-		<transformer 
-		    implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+		<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
 	      </transformers>
 	      <filters>
 		<filter>
@@ -86,7 +85,7 @@
     <dependency>
       <groupId>com.ibm.wala</groupId>
       <artifactId>com.ibm.wala.cast</artifactId>
-      <version>1.5.7-SNAPSHOT</version>
+      <version>1.6.11</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.wala</groupId>
